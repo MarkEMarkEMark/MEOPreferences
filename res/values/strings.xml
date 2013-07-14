@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">MEO Christmas Lights</string>
+
+    <!-- Name in Live Wallpaper Picker list -->
+    <string name="lwp_name">MEO Christmas Lights</string>
+
+    <!-- Description in Live Wallpaper Picker list -->
+    <string name="lwp_desc">Highly customisable christmas light decorations for Android</string>
+
+    <!-- Author -->
+    <string name="lwp_author">Mark E. Ortiz</string>
+
+    <!-- Quick little message displayed when the Live Wallpaper Picker is opened -->
+    <!-- The message text is the prefix, lwp_name, and suffix concatenated -->
+    <string name="picker_toast_prefix">Choose \"</string>
+    <string name="picker_toast_suffix">\" from the list of live wallpapers</string>
+
+    <!-- Settings -->
+    <string name="settings_title">MEO Christmas Lights</string>
+
+    <string name="livewallpaper_settings">Settings</string>
+	<string name="meo_layout_title">Light Layout</string>
+	<string name="meo_layout_summary">Choose a layout for the lights</string>
+	<string name="meo_mode_title">Developer Mode</string>
+	<string name="meo_mode_summary">Display lights as simple squares</string>
+	<string name="meo_fadetime_title">Fade Time</string>
+	<string name="meo_fadetime_summary">Time taken to fade between patterns</string>
+	<string name="meo_displaytime_title">Display Time</string>
+	<string name="meo_displaytime_summary">Time each pattern is displayed for</string>   
+</resources>

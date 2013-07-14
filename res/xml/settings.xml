@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="rajawalisharedprefs"
+    android:title="@string/settings_title" >
+
+	<ListPreference
+		android:key="meoprefLayout"
+		android:title="@string/meo_layout_title"
+		android:summary="@string/meo_layout_summary"
+		android:defaultValue="Tree Strands"
+		android:entries="@array/livewallpaper_testpattern_names"
+		android:entryValues="@array/livewallpaper_testpattern_prefix"/>
+	<CheckBoxPreference android:key="meoprefMode"
+		android:summary="@string/meo_mode_summary"
+		android:title="@string/meo_mode_title"
+		android:summaryOn="Test mode is on"
+		android:summaryOff="Test mode is off"/>
+	<EditTextPreference
+                android:title="@string/meo_fadetime_title"
+                android:summary="@string/meo_fadetime_summary"
+                android:inputType="number"
+                android:defaultValue="120"
+                android:key="meoprefFadetime"/>
+	<EditTextPreference
+                android:title="@string/meo_displaytime_title"
+                android:summary="@string/meo_displaytime_summary"
+                android:inputType="number"
+                android:defaultValue="1200" 
+                android:key="meoprefDisplaytime"/>
+</PreferenceScreen>
